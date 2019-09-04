@@ -1,4 +1,4 @@
-# # Source code for the simulation experiments of the paper *Hierarchical Probabilistic Forecasting of Electricity Demand with Smart Meter Data* by Ben Taieb, Souhaib, Taylor, James, and Hyndman, Rob.
+# Source code for the simulation experiments of the paper *Hierarchical Probabilistic Forecasting of Electricity Demand with Smart Meter Data* by Ben Taieb, Souhaib, Taylor, James, and Hyndman, Rob.
 
 
 The code implements all the results for the simulation experiments in Section 7.
