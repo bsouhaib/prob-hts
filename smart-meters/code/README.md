@@ -4,9 +4,9 @@ The code computes all the results in Section 6, and produces all the figures in 
 
 # Usage
 
-1. Downnload the following files: *edrp_elec.csv*, *edrp_metadata.xlsx* and *edrp_geography_data.xlsx* from https://discover.ukdataservice.ac.uk/catalogue/?sn=7591 (registration required)
+1. Downnload the following files: *edrp_elec.csv*, *edrp_metadata.xlsx* and *edrp_geography_data.xlsx* from https://discover.ukdataservice.ac.uk/catalogue/?sn=7591 (registration required).
 2. Save these files in "../rawdata"
-3. Apply a preprocessing step and save the results in new Rdata files (slow)
+3. Apply a preprocessing step and save the results in new Rdata files (slow).
 ```
 source("init_1_raw_meters.R")
 source("init_2_myHierarchy.R")
@@ -21,27 +21,27 @@ source("init_4_aggregated_meters.R")
 ```
 ./run_basef.sh
 ```
-4. Compute the covariance matrix W for the MinT method 
+4. Compute the covariance matrix W for the MinT method. 
 ```
 source("MinT_ecov.R")
 ```
-5. Compute the permutations (empirical copulas)
+5. Compute the permutations (empirical copulas).
 ```
 source("permutations.R")
 ```
-6. Merge the results by half hour
+6. Merge the results by half hour.
 ```
 source("makebf_byhalfhour.R")
 ```
-7. Compute the forecasts for the aggregated series (slow)
+7. Compute the forecasts for the aggregated series (slow).
 ```
 ./run_aggregation.sh
 ```
-8. Merge the aggregation results
+8. Merge the aggregation results.
 ```
 source("aggregation_merge.R")
 ```
-9. Produce the figures with all the accuracy measures
+9. Produce the figures with all the accuracy measures.
 ```
 source("results.R")
 ```
