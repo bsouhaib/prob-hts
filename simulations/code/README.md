@@ -10,8 +10,8 @@ The code implements all the results for the simulation experiments in Section 7.
 ```
 ./runsim.sh
 ```
-3. To produce the figures of the results, run the script *analysis.R* with the right scenario, as in step 1.
+3. To produce the figures with the results, run the script *analysis.R* with the right scenario, as in step 1.
 ```
 ./analysis.sh
 ```
-4. The results will be available in the folder *work*.
+4. The results will then be available in the folder *work*.
